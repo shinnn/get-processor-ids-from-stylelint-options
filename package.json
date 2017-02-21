@@ -1,0 +1,40 @@
+{
+  "name": "get-processor-ids-from-stylelint-options",
+  "version": "1.0.0",
+  "description": "Get stylelint processor identifiers from given stylelint API options",
+  "repository": "shinnn/get-processor-ids-from-stylelint-options",
+  "author": "Shinnosuke Watanabe (https://github.com/shinnn)",
+  "scripts": {
+    "pretest": "eslint --fix --format=codeframe index.js test.js",
+    "test": "node --throw-deprecation test.js",
+    "coverage": "istanbul cover --print=both test.js"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "mode",
+    "file",
+    "stat",
+    "lstat",
+    "int",
+    "integer",
+    "number",
+    "promise",
+    "async",
+    "asynchronous"
+  ],
+  "dependencies": {
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "@shinnn/eslint-config-node": "^3.0.0",
+    "eslint": "^3.16.0",
+    "istanbul": "^0.4.5",
+    "tape": "^4.6.3"
+  },
+  "eslintConfig": {
+    "extends": "@shinnn/node"
+  }
+}
